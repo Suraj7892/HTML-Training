@@ -1,0 +1,15 @@
+/** {
+    border: 1px solid red;
+} */
+
+ul li ol {
+    color: red;
+}
+
+article>p {
+    background-color: burlywood;
+}
+
+article>p>strong {
+    background-color: red;
+}
