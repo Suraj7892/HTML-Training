@@ -1,0 +1,103 @@
+input[type="name"] {
+    border-radius: inherit;
+    border-color: rgb(231, 8, 8);
+    background-color: aquamarine;
+}
+
+input[type="email"] {
+    border-radius: inherit;
+    border-color: rgb(79, 165, 42);
+    background-color: lightgray;
+}
+
+/* div {
+    background-color: lightpink;
+    border-radius: 0cqi;
+    border-color: rgb(248, 15, 15);
+    text-align: center;
+} */
+
+input[type="text"] {
+    border-radius: inherit;
+    border-color: brown;
+    background-color: lightgoldenrodyellow;
+}
+
+a[href="www.google.com"] {
+    background-color: rgb(217, 4, 167);
+}
+
+a[href="www.facebook.com"] {
+    background-color: rgb(4, 217, 196);
+}
+
+a[href="www.twiter.com"] {
+    background-color: rgb(71, 217, 4);
+}
+
+
+#container {
+    height: 200px;
+    width: 200px;
+    border: 3px;
+    border-color: rgb(19, 210, 181);
+    border-style: dotted;
+    background-color: lightgoldenrodyellow;
+
+}
+
+#container:hover {
+    background-color: lightblue;
+}
+
+#container:active {
+    background-color: red;
+}
+
+#container:focus {
+    background-color: rgb(50, 207, 29);
+}
+
+button {
+    background-color: lightsalmon;
+}
+
+button:active {
+    background-color: blue;
+}
+
+input[placeholder="Name"]:focus {
+    background-color: rgb(230, 12, 12);
+}
+
+p::first-letter {
+    font-size: x-large;
+    color: blue;
+}
+
+p::first-line {
+    color: rgb(15, 116, 204);
+}
+
+
+h1::after {
+    content: "lorem";
+    color: rgb(0, 255, 187);
+}
+
+h1::before {
+    content: "H1";
+    color: rgb(0, 255, 187);
+}
+
+ol>li:nth-of-type(odd) {
+    color: red;
+}
+
+/* ol>li:nth-of-type(even) {
+    color: blue;
+} */
+
+li:last-child {
+    color: violet;
+}

@@ -1,0 +1,31 @@
+html {
+    text-align: center;
+}
+
+h4+p {
+    color: rgb(179, 94, 24);
+    background-color: rgb(55, 23, 160);
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h4~p {
+    color: blanchedalmond;
+}
+
+#left {
+    height: 100px;
+    border-width: 100px;
+    border: solid;
+    border-color: aquamarine;
+}
+
+#right {
+    height: 100px;
+    border-width: 100px;
+    border: solid;
+    border-color: aquamarine;
+}
